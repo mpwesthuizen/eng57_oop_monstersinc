@@ -17,7 +17,7 @@ class Course:
         self.list_of_students.append(student)
         return "Skills Added"
 
-    def get_student(self):
+    def get_students(self):
         return ', '.join(self.__get_names())
 
     def __get_names(self):

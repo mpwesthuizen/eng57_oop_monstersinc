@@ -10,6 +10,8 @@ sully = Student('Sully', '9934', 'blue', '02', ['strength', 'roar'])
 mike.add_skill('python')
 sully.add_skill('C#')
 
+print(mike.skill_list)
+print(sully.skill_list)
 # initialise a course
 course1 = Course('Nightmares', '02/06/2020')
 
@@ -17,7 +19,7 @@ course1 = Course('Nightmares', '02/06/2020')
 course1.add_student(mike)
 course1.add_student(sully)
 
-print(course1.get_student())
+print(course1.get_students())
 
 
 # extra: get the list of students, iterate over it and print each of the students name
